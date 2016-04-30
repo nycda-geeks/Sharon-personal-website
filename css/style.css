@@ -4,6 +4,12 @@ html {
 	width:100%;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
+	color:black;
+}
+h1 {
+	font-size:24px;
+	margin:50px auto 25px;
+	width:160px;
 }
 
 /* Header */
@@ -14,19 +20,67 @@ html {
 #masthead img {
 	margin:10px;
 	width:25px;
+	float:right;
 }
 
-#navbar {
-	position:fixed;
+nav {
 	color:#000000;
 	font-size: 18px;
+	width:100%;
+}
+#navbar {
+	margin:20px auto;
+	width:460px;
 }
 #navbar a {
-	margin:25px;
+	padding:0 25px;
 	text-decoration: none;
+	color:black;
+	display:inline-block;
+	width:150px;
+	text-align: center;
+}
+#navbar a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	color:#ebc236;
 }
 
 
+/* Latest projects */
+#projects {
+	background-color: #ebc236;
+	width:100%;
+}
+#project-box a {
+	display:inline-block;
+	background-color: white;
+	border:solid 1px #aaa;
+	text-decoration: none;
+	color:black;
+	padding:5px;
+}
+#project-box a:hover {
+	color:#3d7a5d;
+}
+#project-box img {
+	width:100%;
+}
+#seemore {
+	margin:25px 0 50px;
+	display:block;
+	border:solid 1px #aaa;
+	float:right;
+}
+#seemore a {
+	padding:5px;
+	color:black;
+	font-size: 18px;
+	text-decoration: none;
+}
+#seemore a:hover {
+	color:#3d7a5d;
+}
 
 
 
@@ -35,6 +89,8 @@ html {
 /* Footer */
 footer {
 	background-color: #3d7a5d;
-	height:45px;
 	color:white;
+}
+footer p {
+	margin:10px 0;
 }

@@ -24,6 +24,42 @@
     ?>
 
   <main>
+    <div id="projects">
+      <div class="container">
+        <h1>Latest projects</h1>
+        <div id="project-box" class="row">
+          <div class="col-sm-6 col-md-3">
+            <a href="" alt="">
+              <img src="img/placeholder.png" alt="project"/>
+              <h4>Title</h4>
+              <p>Some text and some more text...</p>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <a href="" alt="">
+              <img src="img/placeholder.png" alt="project"/>
+              <h4>Title</h4>
+              <p>Some text and some more text...</p>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <a href="" alt="">
+              <img src="img/placeholder.png" alt="project"/>
+              <h4>Title</h4>
+              <p>Some text and some more text...</p>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <a href="" alt="">
+              <img src="img/placeholder.png" alt="project"/>
+              <h4>Title</h4>
+              <p>Some text and some more text...</p>
+            </a>
+          </div>
+        </div>
+        <div id="seemore">
+          <a href="" alt="">See more >></a>
+        </div>
 
 
 
