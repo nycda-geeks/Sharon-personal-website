@@ -3,6 +3,7 @@
 html {
 	width:100%;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
 }
 
 /* Header */
@@ -17,7 +18,23 @@ html {
 
 #navbar {
 	position:fixed;
+	color:#000000;
+	font-size: 18px;
 }
 #navbar a {
 	margin:25px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Footer */
+footer {
+	background-color: #3d7a5d;
+	height:45px;
+	color:white;
 }
