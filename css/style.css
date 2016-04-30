@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html {
+	width:100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+#masthead {
+	height:150px;
+	background-color: #3d7a5d;
+}
+#masthead img {
+	margin:10px;
+	width:100px;
+}
+
+#navbar {
+	position:fixed;
+}
+#navbar a {
+	margin:25px;
+}
