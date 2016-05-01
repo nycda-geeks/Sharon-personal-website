@@ -7,7 +7,20 @@ html {
 }
 p {
 	font-size: 18px;
+<<<<<<< HEAD
 	line-height: 30px;
+=======
+<<<<<<< HEAD
+	line-height: 30px;
+=======
+	color:black;
+}
+h1 {
+	font-size:24px;
+	margin:50px auto 25px;
+	width:160px;
+>>>>>>> e79a1bbb011db212688d8f1b5837a7d2c0ef8ca4
+>>>>>>> e85c0cda253c7b28767014e26aee15897a350265
 }
 
 /* Header */
@@ -27,10 +40,14 @@ p {
 	display: inline-block;
 	height:25px;
 	width:25px;
+<<<<<<< HEAD
 	margin:10px;
 }
 #masthead a:hover {
 	background-position:bottom;
+=======
+	float:right;
+>>>>>>> e85c0cda253c7b28767014e26aee15897a350265
 }
 
 nav {
@@ -49,6 +66,14 @@ nav {
 	display:inline-block;
 	width:150px;
 	text-align: center;
+<<<<<<< HEAD
+=======
+}
+#navbar a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	color:#ebc236;
+>>>>>>> e85c0cda253c7b28767014e26aee15897a350265
 }
 #navbar a:hover {
 	text-decoration: underline;
@@ -103,6 +128,85 @@ nav {
 	color:#3d7a5d;
 }
 
+/* Latest projects */
+#projects {
+	background-color: #ebc236;
+	width:100%;
+}
+<<<<<<< HEAD
+#projects h1 {
+	font-size:35px;
+	margin:50px auto 25px;
+	width:235px;
+}
+=======
+>>>>>>> e79a1bbb011db212688d8f1b5837a7d2c0ef8ca4
+#project-box a {
+	display:inline-block;
+	background-color: white;
+	border:solid 1px #aaa;
+	text-decoration: none;
+	color:black;
+	padding:5px;
+}
+#project-box a:hover {
+	color:#3d7a5d;
+}
+#project-box img {
+	width:100%;
+}
+<<<<<<< HEAD
+#project-box h4 {
+	font-size: 24px;
+}
+=======
+>>>>>>> e79a1bbb011db212688d8f1b5837a7d2c0ef8ca4
+#seemore {
+	margin:25px 0 50px;
+	display:block;
+	border:solid 1px #aaa;
+	float:right;
+}
+#seemore a {
+<<<<<<< HEAD
+	display:block;
+=======
+>>>>>>> e79a1bbb011db212688d8f1b5837a7d2c0ef8ca4
+	padding:5px;
+	color:black;
+	font-size: 18px;
+	text-decoration: none;
+}
+#seemore a:hover {
+<<<<<<< HEAD
+	display:block;
+	background-color: white;
+	color:#3d7a5d;
+}
+
+<<<<<<< HEAD
+/* About me */
+#about h1 {
+	font-size:35px;
+	margin:50px auto 25px;
+	width:170px;
+}
+#about img {
+	width:100%;
+	max-width: 450px;
+	padding:25px;
+	margin:0 auto;
+}
+#about p {
+	margin:25px 0 50px;
+	text-align: center;
+}
+=======
+=======
+	color:#3d7a5d;
+}
+>>>>>>> e79a1bbb011db212688d8f1b5837a7d2c0ef8ca4
+>>>>>>> e85c0cda253c7b28767014e26aee15897a350265
 
 /* About me */
 #about h1 {
@@ -121,6 +225,32 @@ nav {
 	text-align: center;
 }
 
+/* Contact */
+#contact {
+	background-color: #db9a3e;
+}
+#contact h1 {
+	font-size:35px;
+	margin:50px auto 25px;
+	width:190px;
+	color:white;
+}
+.mail-img {
+	background-image: url(../img/mail-hover.png);
+}
+.linkedin-img {
+	background-image: url(../img/linkedin-hover.png);
+	float:right;
+}
+#contact a {
+	display: inline-block;
+	height:50px;
+	width:50px;
+	margin: 25px auto 50px;
+}
+#contact a:hover {
+	background-position:bottom;
+}
 
 /* Contact */
 #contact {
@@ -134,6 +264,8 @@ nav {
 }
 .mail-img {
 	background-image: url(../img/mail-hover.png);
+	margin:0 auto;
+	width:50px;
 }
 .linkedin-img {
 	background-image: url(../img/linkedin-hover.png);
