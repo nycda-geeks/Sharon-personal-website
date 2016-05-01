@@ -29,7 +29,11 @@
         <h1>Latest projects</h1>
         <div id="project-box" class="row">
           <div class="col-sm-6 col-md-3">
+<<<<<<< HEAD
             <a href="project1.html" alt="">
+=======
+            <a href="" alt="">
+>>>>>>> e4aef4f72ddf6d5b7e37118846de7fbeca7942a9
               <img src="img/placeholder.png" alt="project"/>
               <h4>Title</h4>
               Some text and some more text...
