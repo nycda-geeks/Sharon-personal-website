@@ -1,9 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-html {
+body {
 	width:100%;
 	font-family: 'Montserrat', sans-serif;
+	color:black;
 	font-size: 18px;
+}
+p {
+	font-size: 18px;
+	line-height: 30px;
 }
 
 /* Header */
@@ -11,30 +16,166 @@ html {
 	min-height:45px;
 	background-color: #3d7a5d;
 }
-#masthead img {
-	margin:10px;
+#masthead .mail-img {
+	background-image: url(../img/mail-header.png);
+	float:right;
+}
+#masthead .linkedin-img {
+	background-image: url(../img/linkedin-header.png);
+	float:right;
+}
+#masthead a {
+	display: inline-block;
+	height:25px;
 	width:25px;
+	margin:10px;
+}
+#masthead a:hover {
+	background-position:bottom;
 }
 
-#navbar {
-	position:fixed;
+nav {
 	color:#000000;
 	font-size: 18px;
+	width:100%;
+}
+#navbar {
+	margin:20px auto;
+	width:460px;
 }
 #navbar a {
-	margin:25px;
+	padding:0 25px;
 	text-decoration: none;
+	color:black;
+	display:inline-block;
+	width:150px;
+	text-align: center;
+}
+#navbar a:hover {
+	font-weight: bold;
+	color:#db9a3e;
 }
 
 
+/* Latest projects */
+#projects {
+	background-color: #ebc236;
+	width:100%;
+}
+#projects h1 {
+	font-size:35px;
+	margin:50px auto 25px;
+	width:270px;
+}
+
+#project-box a {
+	display:block;
+	background-color: white;
+	border-radius:5px;
+	text-decoration: none;
+	color:black;
+	padding:15px;
+	margin:35px auto;
+	max-width:500px;
+	transition: all 0.3s;
+}
+
+@media screen and (min-width: 768px) {
+	#project-box a {
+		display:inline-block;
+		padding:10px;
+		margin:15px;
+		transition: all 0.3s;
+	}
+}
+#project-box a:hover {
+	transform: scale(1.05, 1.05);
+	box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+}
+#project-box img {
+	width:100%;
+	margin-bottom:10px;
+}
+#project-box h4 {
+	font-size: 24px;
+}
+#seemore {
+	margin:25px 15px 50px 0;
+	display:block;
+	border:solid 2px #aaa;
+	border-radius: 5px;
+	float:right;
+}
+#seemore:hover {
+	border:solid 2px #3d7a5d;
+	border-radius: 5px;
+}
+#seemore a {
+	display:block;
+	padding:5px;
+	color:black;
+	font-size: 18px;
+	text-decoration: none;
+}
+#seemore a:hover {
+	display:block;
+	background-color: white;
+	color:#3d7a5d;
+}
 
 
+/* About me */
+#about h1 {
+	font-size:35px;
+	margin:50px auto 25px;
+	width:190px;
+}
+#about img {
+	width:100%;
+	max-width: 450px;
+	padding:25px;
+	margin:0 auto;
+}
+#about p {
+	margin:25px 0 50px;
+	text-align: center;
+}
 
+
+/* Contact */
+#contact {
+	background-color: #db9a3e;
+}
+#contact h1 {
+	font-size:35px;
+	margin:50px auto 25px;
+	width:230px;
+	color:white;
+}
+.mail-img {
+	background-image: url(../img/mail-hover.png);
+}
+.linkedin-img {
+	background-image: url(../img/linkedin-hover.png);
+	float:right;
+}
+#contact a {
+	display: inline-block;
+	height:50px;
+	width:50px;
+	margin: 25px auto 50px;
+}
+#contact a:hover {
+	background-position:bottom;
+}
 
 
 /* Footer */
 footer {
 	background-color: #3d7a5d;
-	height:45px;
 	color:white;
+}
+footer section {
+	margin:10px;
+	font-size: 14px;
 }

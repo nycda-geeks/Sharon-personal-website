@@ -24,12 +24,79 @@
     ?>
 
   <main>
+    <div id="projects">
+      <div class="container">
+        <h1>Latest projects</h1>
+        <div id="project-box" class="row">
+          <div class="col-sm-6 col-md-3">
+            <a href="project1.html" alt="">
+              <img src="img/placeholder.png" alt="project"/>
+              <h4>Title</h4>
+              Some text and some more text...
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <a href="" alt="">
+              <img src="img/placeholder.png" alt="project"/>
+              <h4>Title</h4>
+             Some text and some more text...
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <a href="" alt="">
+              <img src="img/placeholder.png" alt="project"/>
+              <h4>Title</h4>
+              Some text and some more text...
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <a href="" alt="">
+              <img src="img/placeholder.png" alt="project"/>
+              <h4>Title</h4>
+              Some text and some more text...
+            </a>
+          </div>
+        </div>
+        <div id="seemore">
+          <a href="" alt="">See more >></a>
+        </div>
+      </div>
+    </div>
 
 
+    <div id="about">
+      <div class="container">
+        <h1>Who am I?</h1>
+        <div class="row">
+          <div class="col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">
+            <img src="img/sharon.png" alt="Sharon"/>
+          </div>
+        </div>
+          <div class="col-md-offset-2 col-md-8">
+            <p>Maecenas eu tristique orci. Praesent nec turpis sed turpis pretium consequat. 
+              Donec tincidunt turpis eu tellus eleifend, in posuere leo feugiat. 
+              In feugiat aliquam molestie. Sed a blandit felis. Pellentesque consequat viverra lobortis. 
+              Phasellus dignissim nulla ac pharetra sagittis. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-
-
+    <div id="contact">
+      <div class="container">
+        <h1>Get in touch</h1>
+        <div class="row">
+          <div class="col-xs-offset-2 col-xs-4 col-sm-offset-4 col-sm-1">
+            <a class="mail-img" href="mailto:sharon@mediafruits.nl" alt="sharon@mediafruits.nl"></a>
+          </div>
+          <div class="col-xs-4 col-sm-offset-2 col-sm-1">
+            <a class="linkedin-img" href="https://www.linkedin.com/in/svdgeest" alt="LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
   </main>
