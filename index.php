@@ -60,6 +60,7 @@
         <div id="seemore">
           <a href="" alt="">See more >></a>
         </div>
+<<<<<<< HEAD
       </div>
     </div>
 
@@ -97,6 +98,14 @@
         </div>
       </div>
     </div>
+=======
+
+
+
+
+
+
+>>>>>>> e79a1bbb011db212688d8f1b5837a7d2c0ef8ca4
 
 
   </main>
