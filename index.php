@@ -32,41 +32,34 @@
             <a href="" alt="">
               <img src="img/placeholder.png" alt="project"/>
               <h4>Title</h4>
-              <p>Some text and some more text...</p>
+              Some text and some more text...
             </a>
           </div>
           <div class="col-sm-6 col-md-3">
             <a href="" alt="">
               <img src="img/placeholder.png" alt="project"/>
               <h4>Title</h4>
-              <p>Some text and some more text...</p>
+             Some text and some more text...
             </a>
           </div>
           <div class="col-sm-6 col-md-3">
             <a href="" alt="">
               <img src="img/placeholder.png" alt="project"/>
               <h4>Title</h4>
-              <p>Some text and some more text...</p>
+              Some text and some more text...
             </a>
           </div>
           <div class="col-sm-6 col-md-3">
             <a href="" alt="">
               <img src="img/placeholder.png" alt="project"/>
               <h4>Title</h4>
-              <p>Some text and some more text...</p>
+              Some text and some more text...
             </a>
           </div>
         </div>
         <div id="seemore">
           <a href="" alt="">See more >></a>
         </div>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e85c0cda253c7b28767014e26aee15897a350265
->>>>>>> 9779a2d37f2833decae68fa33d72ab3452799e28
       </div>
     </div>
 
@@ -95,29 +88,15 @@
       <div class="container">
         <h1>Get in touch</h1>
         <div class="row">
-          <div class="col-sm-offset-4 col-sm-1">
+          <div class="col-xs-offset-2 col-xs-4 col-sm-offset-4 col-sm-1">
             <a class="mail-img" href="mailto:sharon@mediafruits.nl" alt="sharon@mediafruits.nl"></a>
           </div>
-          <div class="col-sm-offset-2 col-sm-1">
+          <div class="col-xs-4 col-sm-offset-2 col-sm-1">
             <a class="linkedin-img" href="https://www.linkedin.com/in/svdgeest" alt="LinkedIn"></a>
           </div>
         </div>
       </div>
     </div>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-
-
-
-
-
-
->>>>>>> e79a1bbb011db212688d8f1b5837a7d2c0ef8ca4
->>>>>>> e85c0cda253c7b28767014e26aee15897a350265
->>>>>>> 9779a2d37f2833decae68fa33d72ab3452799e28
 
 
   </main>
