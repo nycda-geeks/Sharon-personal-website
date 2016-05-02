@@ -10,11 +10,17 @@ p {
 	font-size: 18px;
 	line-height: 30px;
 }
+.space {
+	height:120px;
+}
 
 /* Header */
-#masthead {
-	min-height:45px;
+#masthead { 
+	height:45px;
 	background-color: #3d7a5d;
+	width:100%;
+	position:fixed;
+	z-index: 1000;
 }
 #masthead .mail-img {
 	background-image: url(../img/mail-header.png);
@@ -39,6 +45,13 @@ nav {
 	font-size: 18px;
 	width:100%;
 }
+#menu {
+	top:45px;
+	left:0;
+	width:102%;
+	position:fixed;
+	background: white;
+}
 #navbar {
 	margin:20px auto;
 	width:460px;
@@ -59,16 +72,24 @@ nav {
 
 /* Latest projects */
 #projects {
+	margin-top:110px;
 	background-color: #ebc236;
 	width:100%;
 }
 #projects h1 {
 	font-size:35px;
-	margin:50px auto 25px;
+	margin:0 auto 25px;
 	width:270px;
 }
+#projects a {
+	text-decoration: none;
+	color:black;
+}
+#projects a:hover {
+	color:black;
+}
 
-#project-box a {
+#project-box section {
 	display:block;
 	background-color: white;
 	border-radius:5px;
@@ -79,16 +100,18 @@ nav {
 	max-width:500px;
 	transition: all 0.3s;
 }
-
 @media screen and (min-width: 768px) {
-	#project-box a {
+	#project-box section {
 		display:inline-block;
 		padding:10px;
-		margin:15px;
 		transition: all 0.3s;
 	}
 }
-#project-box a:hover {
+#project-box a {
+	display:block;
+	width:80%;
+}
+#project-box section:hover {
 	transform: scale(1.05, 1.05);
 	box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
 }
@@ -98,9 +121,11 @@ nav {
 }
 #project-box h4 {
 	font-size: 24px;
+	height:50px;
 }
+
 #seemore {
-	margin:25px 15px 50px 0;
+	margin:25px 15px 120px 0;
 	display:block;
 	border:solid 2px #aaa;
 	border-radius: 5px;
@@ -127,18 +152,26 @@ nav {
 /* About me */
 #about h1 {
 	font-size:35px;
-	margin:50px auto 25px;
+	margin:0 auto 25px;
 	width:190px;
 }
 #about img {
+	display:block;
 	width:100%;
 	max-width: 450px;
 	padding:25px;
 	margin:0 auto;
 }
 #about p {
-	margin:25px 0 50px;
+	margin:25px 0 120px;
 	text-align: center;
+}
+#about a {
+	text-decoration: none;
+	color:black;
+}
+#about a:hover {
+	color:black;
 }
 
 
@@ -148,7 +181,7 @@ nav {
 }
 #contact h1 {
 	font-size:35px;
-	margin:50px auto 25px;
+	margin:0 auto 25px;
 	width:230px;
 	color:white;
 }
@@ -159,14 +192,17 @@ nav {
 	background-image: url(../img/linkedin-hover.png);
 	float:right;
 }
-#contact a {
+.circle {
 	display: inline-block;
 	height:50px;
 	width:50px;
-	margin: 25px auto 50px;
+	margin: 25px auto 120px;
 }
-#contact a:hover {
+.circle:hover {
 	background-position:bottom;
+}
+#contact a {
+	text-decoration: none;
 }
 
 
@@ -178,8 +214,4 @@ footer {
 footer section {
 	margin:10px;
 	font-size: 14px;
-<<<<<<< HEAD
-=======
-	font-weight: 50;
->>>>>>> e4aef4f72ddf6d5b7e37118846de7fbeca7942a9
 }
