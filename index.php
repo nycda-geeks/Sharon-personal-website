@@ -27,16 +27,38 @@
 
   <main>
 
+
+    <div id="about">
+      <div class="container">
+        <a name="about-me-anchor"><div class="space"></div></a>
+        <h1>Who am I?</h1>
+        <div class="row">
+          <div class="col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">
+            <img src="img/sharon.png" alt="Sharon"/>
+          </div>
+        </div>
+          <div class="col-md-offset-2 col-md-8">
+            <p>A 25 year old woman. Currently doing a traineeship to become a Full Stack Webdeveloper in Amsterdam. 
+              Is interested in learning all kinds of languages. Is curious, helpful and conscientious. 
+              Loves to snowboard, play football and play guitar. If possible all in one day. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+
+
     <div id="projects">
       <div class="container">
         <a name="projects-anchor"><div class="space"></div></a>
         <h1>Latest projects</h1>
         <div id="project-box" class="row">
           <div class="col-sm-6 col-md-3">
-            <a class="fancybox fancybox.iframe" href="project1.html" alt="Project 1">
-              <section><img src="img/placeholder.png" alt="project"/>
-                <h4>First Title</h4>
-                Some text and some more text...
+            <a class="fancybox fancybox.iframe" href="first-homework.html" alt="First Homework">
+              <section><img src="img/first-homework.PNG" alt="project"/>
+                <h4>First homework</h4>
+                Getting started with JavaScript and Git Bash.
               </section>
             </a>
           </div>
@@ -68,30 +90,9 @@
             </a>
           </div>
         </div>
-        <div id="seemore">
+        <!-- <div id="seemore">
           <a href="" alt="">See more >></a>
-        </div>
-      </div>
-    </div>
-
-
-    <div id="about">
-      <div class="container">
-        <a name="about-me-anchor"><div class="space"></div></a>
-        <h1>Who am I?</h1>
-        <div class="row">
-          <div class="col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">
-            <img src="img/sharon.png" alt="Sharon"/>
-          </div>
-        </div>
-          <div class="col-md-offset-2 col-md-8">
-            <p>Maecenas eu tristique orci. Praesent nec turpis sed turpis pretium consequat. 
-              Donec tincidunt turpis eu tellus eleifend, in posuere leo feugiat. 
-              In feugiat aliquam molestie. Sed a blandit felis. Pellentesque consequat viverra lobortis. 
-              Phasellus dignissim nulla ac pharetra sagittis. 
-            </p>
-          </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
